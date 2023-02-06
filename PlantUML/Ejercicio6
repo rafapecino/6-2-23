@@ -1,0 +1,11 @@
+class Persona{
+String Nombre
+String Primer Apellido
+String Segundo Apellido
+GregorianCalendar Nacimiento
+Boolean Sexo
+
+
+}
+
+

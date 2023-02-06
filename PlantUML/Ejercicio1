@@ -1,0 +1,19 @@
+class c1:Circulo{
+int diametro = 3
+color = "Rosa"
+}
+class r1:Rectangulo{
+int lado = 2
+int altura = 2
+}
+
+
+class c2:Cuadrado{
+int area = 6 
+}
+
+class e1:Elipse{
+Color = “Amarillo”
+Eje Mayor = 3
+Eje Menor = 1
+}
