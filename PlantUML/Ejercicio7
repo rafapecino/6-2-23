@@ -1,16 +1,16 @@
-class Proyecto{
+class Poyecto{
 Nombre: 1 Texto
 Fecha de inicio: 1 Tiempo
 Fecha de fin: 0..1 Tiempo
 }
+
 class MiembrodelEquipo{
 Nombre: 1 Texto
 Apellidos: 1 Texto
 Rol: 0..* Texto
 }
-
 class LugardeActuación{
-Nombre: 0..* Texto
-Coordenada X: 1 Número
-Coordenada Y: 1 Número
+Nombre: 1 Texto
+Apellidos: 1 Texto
+Rol: 0..* Texto
 }

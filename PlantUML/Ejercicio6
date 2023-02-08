@@ -1,11 +1,11 @@
-class Persona{
-String Nombre
-String Primer Apellido
-String Segundo Apellido
-GregorianCalendar Nacimiento
-Boolean Sexo
 
+class Persona{
+
+Nombre: 1 Texto
+Primer apellido: 1 Texto
+Segundo apellido: 0..1 Texto
+Fecha de nacimiento: 1 Tiempo
+Sexo: 1 Texto
+Número de identificación: 0..1 Texto
 
 }
-
-
