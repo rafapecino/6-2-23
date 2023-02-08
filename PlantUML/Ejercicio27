@@ -1,0 +1,30 @@
+@startuml
+
+class EntidadArqueológica{
+Cronología: 1 Tiempo
+}
+class SitioArqueológico{
+Tipo: 1 enum TipoSitio
+}
+class Lugar{
+Nombre: 1 Texto
+Provincia: 1 Texto
+País: 1 Texto
+}
+class Dimension{
+Nombre: 1 Texto
+Medida: 1 Número
+Unidad: 1 Texto
+}
+enum TipoSitio{
+Asentamiento
+Enterramiento
+Área de Explotación
+}
+EntidadArqueológica "1" o-- "0..*" Dimension : Mide... >
+EntidadArqueológica <|-- ConjuntoArquelógico
+ConjuntoArquelógico "0..*" o-- "1..*" EntidadArqueológica 
+EntidadArqueológica "Singular/multiple"<|-- SitioArqueológico
+Lugar "Localización" -- EntidadArqueológica :Se Localiza En.. >
+
+@enduml
